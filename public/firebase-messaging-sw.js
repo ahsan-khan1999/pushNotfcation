@@ -1,7 +1,7 @@
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-importScripts('/__/firebase/7.18.0/firebase-app.js');
-importScripts('/__/firebase/7.18.0/firebase-messaging.js');
-importScripts('/__/firebase/init.js');
+// importScripts('/__/firebase/7.18.0/firebase-app.js');
+// importScripts('/__/firebase/7.18.0/firebase-messaging.js');
+// importScripts('/__/firebase/init.js');
 
 // const messaging = firebase.messaging();
 
@@ -17,6 +17,6 @@ const firebaseConfig = {
     appId: "1:20982463198:web:8d6c92afcc62cc5b2ea04f",
     measurementId: "G-9NSY0LLNZ2"
 };
-firebaseConfig.initializeApp(firebaseConfig);
+firebase.initializeApp(firebaseConfig);
 
 const messaging = firebase.messaging();
